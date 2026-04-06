@@ -15,7 +15,7 @@ export default function TermsPage() {
             Terms &amp; Conditions
           </h1>
           <p className="text-gray-400 text-sm">
-            Last updated: March 2026
+            Last updated: April 2026
           </p>
         </div>
       </section>
@@ -29,13 +29,20 @@ export default function TermsPage() {
               </h2>
               <p>
                 These Terms and Conditions (&ldquo;Terms&rdquo;) govern your use
-                of the website operated by SIA AB Market &amp; Trade
+                of the website located at{" "}
+                <a
+                  href="https://digital-launch-lab.com"
+                  className="text-navy underline"
+                >
+                  digital-launch-lab.com
+                </a>{" "}
+                (the &ldquo;Site&rdquo;), operated by SIA AB Market &amp; Trade
                 (registration number 40203580147), a limited liability company
                 registered in Latvia, trading as Digital Launch Lab
                 (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;).
               </p>
               <p className="mt-2">
-                By accessing and using this website, you agree to be bound by
+                By accessing and using this Site, you agree to be bound by
                 these Terms. If you do not agree with any part of these Terms,
                 you should not use this website.
               </p>
@@ -60,6 +67,19 @@ export default function TermsPage() {
                   LV-1010, Latvia
                 </p>
                 <p>
+                  <strong>Operational Address:</strong> Ausekļa iela 3–83, Rīga,
+                  LV-1010, Latvia
+                </p>
+                <p>
+                  <strong>Website:</strong>{" "}
+                  <a
+                    href="https://digital-launch-lab.com"
+                    className="text-navy underline"
+                  >
+                    digital-launch-lab.com
+                  </a>
+                </p>
+                <p>
                   <strong>Email:</strong>{" "}
                   <a
                     href="mailto:contact@digitallaunchlab.com"
@@ -73,7 +93,27 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                3. Nature of Services
+                3. Age Verification
+              </h2>
+              <p>
+                This website and the services offered by Digital Launch Lab are
+                intended for use by individuals who are at least 18 years of age
+                or the age of legal majority in their jurisdiction, whichever is
+                higher. By accessing this Site, you represent and warrant that
+                you meet this age requirement.
+              </p>
+              <p className="mt-2">
+                Our services are directed exclusively at business professionals
+                and corporate entities. If you are under 18 years of age, you
+                are not permitted to use this website or engage with our
+                services in any capacity. We do not knowingly collect or
+                process personal data from individuals under 18.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-navy mb-3">
+                4. Nature of Services
               </h2>
               <p>
                 Digital Launch Lab provides business-to-business consulting and
@@ -92,7 +132,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                4. Use of This Website
+                5. Use of This Website
               </h2>
               <p>You agree to use this website only for lawful purposes and in a manner that does not infringe upon the rights of others or restrict their use and enjoyment of this website. Prohibited behaviour includes but is not limited to:</p>
               <ul className="list-disc pl-5 mt-2 space-y-1">
@@ -113,7 +153,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                5. Intellectual Property
+                6. Intellectual Property
               </h2>
               <p>
                 All content on this website — including text, graphics, logos,
@@ -127,7 +167,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                6. Disclaimer
+                7. Disclaimer
               </h2>
               <p>
                 The information on this website is provided &ldquo;as is&rdquo;
@@ -146,7 +186,81 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                7. Limitation of Liability
+                8. Risk Disclaimer
+              </h2>
+              <p>
+                The consulting and advisory services provided by Digital Launch
+                Lab involve strategic recommendations and market analysis.
+                Business decisions carry inherent risks, and outcomes may vary
+                depending on market conditions, implementation quality, and
+                factors beyond our control.
+              </p>
+              <p className="mt-2">
+                We do not guarantee specific business results, revenue
+                increases, market share gains, or return on investment from the
+                application of our consulting recommendations. All strategies,
+                forecasts, and projections shared during our engagements are
+                based on available data and professional judgement at the time
+                of delivery and should not be treated as guarantees of future
+                performance.
+              </p>
+              <p className="mt-2">
+                Clients are solely responsible for evaluating the suitability of
+                any recommendations for their specific business circumstances
+                and for making independent decisions regarding implementation.
+                We strongly advise seeking additional legal, financial, or
+                industry-specific counsel where appropriate before acting on any
+                strategic advice.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-navy mb-3">
+                9. Refund and Dispute Resolution Policy
+              </h2>
+              <p>
+                All consulting engagements with Digital Launch Lab are governed
+                by individual service agreements executed between the parties
+                prior to the commencement of work. Payment terms, deliverables,
+                and scope are defined within each respective agreement.
+              </p>
+              <p className="mt-2">
+                <strong>Refunds:</strong> Due to the nature of consulting and
+                advisory services, refunds are generally not available for work
+                that has already been commenced or delivered. Where a service has
+                been paid for in advance and has not yet been initiated, a
+                refund request may be submitted within 14 calendar days of
+                payment by contacting us at{" "}
+                <a
+                  href="mailto:contact@digitallaunchlab.com"
+                  className="text-navy underline"
+                >
+                  contact@digitallaunchlab.com
+                </a>
+                . Each request will be reviewed on a case-by-case basis.
+              </p>
+              <p className="mt-2">
+                <strong>Dispute Resolution:</strong> In the event of a dispute
+                arising from our services, we encourage clients to first contact
+                us directly to seek an amicable resolution. Disputes that
+                cannot be resolved through direct negotiation within 30 calendar
+                days may be referred to mediation under the rules of a mutually
+                agreed mediation body. If mediation fails, the dispute shall be
+                resolved in accordance with the governing law set forth in
+                Section 13 of these Terms.
+              </p>
+              <p className="mt-2">
+                <strong>Chargebacks:</strong> Clients agree to contact us
+                directly before initiating any payment dispute or chargeback
+                through their payment provider. Unresolved payment disputes may
+                result in the suspension of ongoing services and access to
+                deliverables until the matter is resolved.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-navy mb-3">
+                10. Limitation of Liability
               </h2>
               <p>
                 To the fullest extent permitted by law, SIA AB Market &amp;
@@ -159,7 +273,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                8. External Links
+                11. External Links
               </h2>
               <p>
                 This website may contain links to third-party websites. We have
@@ -171,7 +285,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                9. Governing Law
+                12. Governing Law
               </h2>
               <p>
                 These Terms shall be governed by and construed in accordance
@@ -183,7 +297,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                10. Amendments
+                13. Amendments
               </h2>
               <p>
                 We reserve the right to modify these Terms at any time. Changes
@@ -195,7 +309,7 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-lg font-semibold text-navy mb-3">
-                11. Contact
+                14. Contact
               </h2>
               <p>
                 If you have any questions about these Terms, please contact us:
@@ -208,6 +322,15 @@ export default function TermsPage() {
                 <p>Ausekļa iela 3–83, Rīga, LV-1010, Latvia</p>
                 <p>Registration No. 40203580147</p>
                 <p className="mt-2">
+                  Website:{" "}
+                  <a
+                    href="https://digital-launch-lab.com"
+                    className="text-navy underline"
+                  >
+                    digital-launch-lab.com
+                  </a>
+                </p>
+                <p>
                   Email:{" "}
                   <a
                     href="mailto:contact@digitallaunchlab.com"
